@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Graphik+Webfont&display=swap');
+
+.navber {
+    display: flex;
+    padding: .2rem;
+    overflow: hidden;
+    justify-content: center;
+    /* Align items at the start and end of the flex container */
+    align-items: center;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    max-width: 47rem;
+}
+
+.input {
+
+    width: 100%;
+    max-width: 50rem;
+    height: 2.5rem;
+    border-radius: 30px;
+    padding-left: 2rem;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    border: 2px solid black;
+}
+
+.searchIconDiv {
+    position: absolute;
+    right: .3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #F1641E;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 20;
+
+}
+
+.searchIconDiv:hover {
+    scale: 1.1;
+}
+
+.searchIcon {
+    display: flex;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.navberList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    max-width: 15rem;
+}
+
+.signIn {
+    font-family: 'Graphik Webfont', '-apple-system', 'Helvetica Neue', 'Droid Sans', 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 20.99px;
+    border-radius: 10rem;
+    color: rgb(46, 46, 46);
+    font-weight: 500;
+}
+
+.signIn:hover {
+    background-color: #eee7e7;
+}
+
+.indiaFlag {
+    cursor: pointer;
+    margin-left: 1rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.indiaFlagDiv {
+    display: flex;
+    align-items: center;
+
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.indiaFlagDiv:hover {
+    background-color: #CCEBFF;
+}
+
+.like {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+}
+
+.text {
+    font-family: "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: .16px;
+}
+
+.like:hover {
+    background-color: #CCEBFF;
+}
+
+.cart:hover {
+    background-color: #CCEBFF;
+
+    .cartValue {
+        background-color: blue;
+    }
+}
+
+.cart {
+    position: relative;
+    margin-left: .5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.cartValue {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: .3rem;
+    right: .3rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: .5rem;
+    background-color: #CF4018;
+    font-size: .9rem;
+    color: #CCEBFF;
+}
+
+@media only screen and (max-width: 700px) {
+    .navber {
+        display: flex;
+        padding: .2rem;
+        overflow: hidden;
+        justify-content: center;
+        /* Align items at the start and end of the flex container */
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.carousel {
+    width: 65%;
+
+}
+
+/* information*/
+.info {
+    font-family: 'Graphik Webfont', '-apple-system', 'Helvetica Neue', 'Droid Sans', 'Arial', sans-serif;
+    margin: 3rem;
+    width: 35%;
+    display: flex;
+    align-self: self-start;
+    flex-direction: column;
+
+}
+
+.limited {
+    color: #A61A2E;
+    font-family: 'Graphik Webfont', '-apple-system', 'Helvetica Neue', 'Droid Sans', 'Arial', sans-serif;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: .08px;
+    padding-bottom: 7px;
+}
+
+.price {
+
+    font-family: "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+    font-weight: 550;
+    font-size: 27.01px;
+    line-height: 1.3;
+    letter-spacing: .13505px;
+    padding-bottom: 7px;
+}
+
+.choose {
+    color: #757373;
+    font-family: "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 12.99px;
+    line-height: 1.4;
+    letter-spacing: .1299px;
+    padding-bottom: 7px;
+}
+
+.des {
+    font-family: "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: .9px;
+    padding-bottom: 10px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    color: #222222;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.checkP {
+    font-family: "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 12.99px;
+    line-height: 1.4;
+    letter-spacing: .1299px;
+    color: #4b4a4a;
+}
+
+.select {
+    font-family: "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+    transition: border-color 200ms ease-out, box-shadow 200ms ease-out;
+    -webkit-appearance: none;
+    appearance: none;
+    box-shadow: var(--clg-effect-sem-shadow-elevation-1, 0px 1px 2px 0px rgba(0, 0, 0, 0.3019607843), 0px 1px 3px 1px rgba(0, 0, 0, 0.1490196078));
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    height: 48px;
+    padding-left: 12px;
+    padding-right: calc(12px + 24px);
+    width: 100%;
+    border-radius: 6px;
+    background: var(--clg-color-app-input-background, #FFFFFF);
+
+    color: var(--clg-color-sem-text-primary, #222222);
+    text-indent: 0.01px;
+    text-overflow: "";
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+.select:hover {
+    border: 2px solid blue;
+}
+
+.cartBtn {
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    width: 100%;
+    height: 3rem;
+    font-size: 1.1rem;
+    font-family: "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+}
+
+.starReview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+}
+
+.toggleBtn {
+    font-family: "Graphik Webfont", "-apple-system", "Helvetica Neue", "Droid Sans", "Arial", "sans-serif";
+    cursor: pointer;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: #222222;
+    font-weight: 500;
+
+
+}
+
+.toggleBtn:hover {
+    background-color: #E9E9E9;
+    border-radius: 30px;
+}
